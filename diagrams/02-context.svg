@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1130" height="755" viewBox="0 0 1130 755" font-family="DejaVu Sans, Arial, sans-serif" role="img" aria-labelledby="diagram-title">
+  <title id="diagram-title">Кто участвует в выборе записи</title>
+  <rect width="1130" height="755" fill="#fff" />
+  <text x="36" y="39" font-size="16" fill="#0d615c" text-anchor="start" font-weight="bold">C4  ·  Уровень 1  /  System Context</text>
+  <text x="36" y="82" font-size="31" fill="#173445" text-anchor="start" font-weight="bold">Кто участвует в выборе записи</text>
+  <polyline points="420,170 165,170 165,277.5" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="165,277.5 160.7,266.5 169.3,266.5" fill="#415d6b" />
+  <polyline points="285,277.5 285,229 460,229 460,209" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="460,209 464.3,220.0 455.7,220.0" fill="#415d6b" />
+  <polyline points="180,362.5 180,475 380,475" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="380,475 369.0,479.3 369.0,470.7" fill="#415d6b" />
+  <polyline points="470,457 470,401 285,401 285,362.5" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="285,362.5 289.3,373.5 280.7,373.5" fill="#415d6b" />
+  <polyline points="750,485 915,485 915,362.5" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="915,362.5 919.3,373.5 910.7,373.5" fill="#415d6b" />
+  <polyline points="915,277.5 915,170 710,170" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="710,170 721.0,165.7 721.0,174.3" fill="#415d6b" />
+  <polyline points="473,543 473,643" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="473,643 468.7,632.0 477.3,632.0" fill="#415d6b" />
+  <polyline points="671,643 671,543" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="671,543 675.3,554.0 666.7,554.0" fill="#415d6b" />
+  <g id="listener">
+    <title>Слушатель · Человек</title>
+    <rect x="420.0" y="131.0" width="290" height="78" rx="6" fill="#263f57" stroke="#173445" stroke-width="1.6" />
+    <text x="565" y="165.0" font-size="18" fill="#fff" text-anchor="middle" font-weight="bold">Слушатель</text>
+    <text x="565" y="187.0" font-size="15" fill="#fff" text-anchor="middle" font-weight="normal">Человек</text>
+  </g>
+  <g id="alice">
+    <title>Алиса · Внешняя система · голосовой диалог</title>
+    <rect x="65.0" y="277.5" width="320" height="85" rx="6" fill="#edf2f6" stroke="#778e9c" stroke-width="1.6" />
+    <text x="225" y="315.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="bold">Алиса</text>
+    <text x="225" y="337.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">Внешняя система · голосовой диалог</text>
+  </g>
+  <g id="selector">
+    <title>Система выбора записи · Определяет, какой трек запустить</title>
+    <rect x="380.0" y="457.0" width="370" height="86" rx="6" fill="#0d615c" stroke="#084b48" stroke-width="1.6" />
+    <text x="565" y="495.0" font-size="18" fill="#fff" text-anchor="middle" font-weight="bold">Система выбора записи</text>
+    <text x="565" y="517.0" font-size="15" fill="#fff" text-anchor="middle" font-weight="normal">Определяет, какой трек запустить</text>
+  </g>
+  <g id="player">
+    <title>Плеер Яндекс Музыки · Внешняя система · воспроизведение</title>
+    <rect x="750.0" y="277.5" width="330" height="85" rx="6" fill="#edf2f6" stroke="#778e9c" stroke-width="1.6" />
+    <text x="915" y="315.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="bold">Плеер Яндекс Музыки</text>
+    <text x="915" y="337.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">Внешняя система · воспроизведение</text>
+  </g>
+  <g id="cat">
+    <title>Каталог Яндекс Музыки · Внешняя система · доступные записи</title>
+    <rect x="380.0" y="643.0" width="370" height="80" rx="6" fill="#edf2f6" stroke="#778e9c" stroke-width="1.6" />
+    <text x="565" y="678.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="bold">Каталог Яндекс Музыки</text>
+    <text x="565" y="700.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">Внешняя система · доступные записи</text>
+  </g>
+  <text x="283" y="170" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Просит включить трек</text>
+  <text x="283" y="170" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Просит включить трек</text>
+  <text x="374" y="229" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Озвучивает вопрос или отказ</text>
+  <text x="374" y="229" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Озвучивает вопрос или отказ</text>
+  <text x="265" y="475" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Текст запроса или ответ</text>
+  <text x="265" y="475" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Текст запроса или ответ</text>
+  <text x="389" y="401" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Варианты или отказ</text>
+  <text x="389" y="401" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Варианты или отказ</text>
+  <text x="859" y="485" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Команда с track_id</text>
+  <text x="859" y="485" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Команда с track_id</text>
+  <text x="814" y="170" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Воспроизводит запись</text>
+  <text x="814" y="170" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Воспроизводит запись</text>
+  <text x="451" y="590" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Поиск по тексту</text>
+  <text x="451" y="590" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Поиск по тексту</text>
+  <text x="761" y="589" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">ID, названия и исполнители</text>
+  <text x="761" y="589" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">ID, названия и исполнители</text>
+</svg>

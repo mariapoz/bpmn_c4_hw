@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="860" viewBox="0 0 1140 860" font-family="DejaVu Sans, Arial, sans-serif" role="img" aria-labelledby="diagram-title">
+  <title id="diagram-title">Как сервис ранжирования оценивает записи</title>
+  <rect width="1140" height="860" fill="#fff" />
+  <text x="36" y="39" font-size="16" fill="#0d615c" text-anchor="start" font-weight="bold">C4  ·  Уровень 3  /  Components</text>
+  <text x="36" y="82" font-size="31" fill="#173445" text-anchor="start" font-weight="bold">Как сервис ранжирования оценивает записи</text>
+  <rect x="40" y="108" width="1060" height="650" rx="8" fill="#f6f9fa" stroke="#9cb1b8" />
+  <text x="56" y="134" font-size="16" fill="#415d6b" text-anchor="start" font-weight="bold">Сервис ранжирования  ·  Python / ONNX Runtime</text>
+  <polyline points="447.5,238 673,238" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="673,238 662.0,242.3 662.0,233.7" fill="#415d6b" />
+  <polyline points="265,305.5 265,420.5" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="265,420.5 260.7,409.5 269.3,409.5" fill="#415d6b" />
+  <polyline points="447.5,443 538,443 538,294 673,294" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="673,294 662.0,298.3 662.0,289.7" fill="#415d6b" />
+  <polyline points="855,305.5 855,420.5" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="855,420.5 850.7,409.5 859.3,409.5" fill="#415d6b" />
+  <polyline points="447.5,483 673,483" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="673,483 662.0,487.3 662.0,478.7" fill="#415d6b" />
+  <polyline points="855,515.5 855,654 773,654" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="773,654 784.0,649.7 784.0,658.3" fill="#415d6b" />
+  <polyline points="363,654 63,654 63,266 82.5,266" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="82.5,266 71.5,270.3 71.5,261.7" fill="#415d6b" />
+  <g id="api">
+    <title>Обработчик запроса · Принимает текст и кандидатов · от Координатора выбора</title>
+    <rect x="82.5" y="210.5" width="365" height="95" rx="6" fill="#0d615c" stroke="#084b48" stroke-width="1.6" />
+    <text x="265" y="242.0" font-size="18" fill="#fff" text-anchor="middle" font-weight="bold">Обработчик запроса</text>
+    <text x="265" y="264.0" font-size="15" fill="#fff" text-anchor="middle" font-weight="normal">Принимает текст и кандидатов</text>
+    <text x="265" y="286.0" font-size="15" fill="#fff" text-anchor="middle" font-weight="normal">от Координатора выбора</text>
+  </g>
+  <g id="feat">
+    <title>Построитель признаков · Сопоставляет текст с названиями · и исполнителями из каталога</title>
+    <rect x="673.0" y="210.5" width="364" height="95" rx="6" fill="#deefed" stroke="#477a78" stroke-width="1.6" />
+    <text x="855" y="242.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="bold">Построитель признаков</text>
+    <text x="855" y="264.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">Сопоставляет текст с названиями</text>
+    <text x="855" y="286.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">и исполнителями из каталога</text>
+  </g>
+  <g id="ver">
+    <title>Загрузчик версии · Читает активную версию реестра · и кэширует модель с её схемой</title>
+    <rect x="82.5" y="420.5" width="365" height="95" rx="6" fill="#deefed" stroke="#477a78" stroke-width="1.6" />
+    <text x="265" y="452.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="bold">Загрузчик версии</text>
+    <text x="265" y="474.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">Читает активную версию реестра</text>
+    <text x="265" y="496.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">и кэширует модель с её схемой</text>
+  </g>
+  <g id="calc">
+    <title>Вычислитель оценок · Выполняет модель ONNX · для каждой записи</title>
+    <rect x="673.0" y="420.5" width="364" height="95" rx="6" fill="#deefed" stroke="#477a78" stroke-width="1.6" />
+    <text x="855" y="452.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="bold">Вычислитель оценок</text>
+    <text x="855" y="474.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">Выполняет модель ONNX</text>
+    <text x="855" y="496.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">для каждой записи</text>
+  </g>
+  <g id="out">
+    <title>Формирователь ответа · Сортирует пары (track_id, оценка), · добавляет версию модели</title>
+    <rect x="363.0" y="606.5" width="410" height="95" rx="6" fill="#deefed" stroke="#477a78" stroke-width="1.6" />
+    <text x="568" y="638.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="bold">Формирователь ответа</text>
+    <text x="568" y="660.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">Сортирует пары (track_id, оценка),</text>
+    <text x="568" y="682.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">добавляет версию модели</text>
+  </g>
+  <text x="561" y="238" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Текст и метаданные</text>
+  <text x="561" y="238" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Текст и метаданные</text>
+  <text x="302" y="365" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Получить снимок версии</text>
+  <text x="302" y="365" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Получить снимок версии</text>
+  <text x="593" y="294" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Схема признаков</text>
+  <text x="593" y="294" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Схема признаков</text>
+  <text x="877" y="365" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Векторы и ID</text>
+  <text x="877" y="365" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Векторы и ID</text>
+  <text x="561" y="483" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Модель и версия</text>
+  <text x="561" y="483" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Модель и версия</text>
+  <text x="913" y="580" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">ID, оценки, версия</text>
+  <text x="913" y="580" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">ID, оценки, версия</text>
+  <text x="211" y="654" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Ответ координатору через API</text>
+  <text x="211" y="654" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Ответ координатору через API</text>
+  <text x="42" y="804" font-size="14" fill="#415d6b" text-anchor="start" font-weight="normal">Вход и выход соответствуют задаче BPMN «Вызвать сервис ранжирования». Решение о запуске остаётся у координатора.</text>
+</svg>

@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1230" height="1510" viewBox="0 0 1230 1510" font-family="DejaVu Sans, Arial, sans-serif" role="img" aria-labelledby="diagram-title">
+  <title id="diagram-title">Выбор записи по голосовой просьбе</title>
+  <rect width="1230" height="1510" fill="#fff" />
+  <text x="36" y="39" font-size="16" fill="#0d615c" text-anchor="start" font-weight="bold">BPMN  ·  Один запрос на воспроизведение трека</text>
+  <text x="36" y="82" font-size="31" fill="#173445" text-anchor="start" font-weight="bold">Выбор записи по голосовой просьбе</text>
+  <rect x="25" y="105" width="315" height="1325" rx="8" fill="#f6f9fa" stroke="#9cb1b8" />
+  <text x="41" y="131" font-size="16" fill="#415d6b" text-anchor="start" font-weight="bold">Голосовой интерфейс Алисы</text>
+  <rect x="350" y="105" width="495" height="1325" rx="8" fill="#f6f9fa" stroke="#9cb1b8" />
+  <text x="366" y="131" font-size="16" fill="#415d6b" text-anchor="start" font-weight="bold">Координатор выбора</text>
+  <rect x="855" y="105" width="350" height="1325" rx="8" fill="#f6f9fa" stroke="#9cb1b8" />
+  <text x="871" y="131" font-size="16" fill="#415d6b" text-anchor="start" font-weight="bold">Сервис ранжирования</text>
+  <polyline points="182,199 182,248" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="182,248 177.7,237.0 186.3,237.0" fill="#415d6b" />
+  <polyline points="298,280 449,280" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="449,280 438.0,284.3 438.0,275.7" fill="#415d6b" />
+  <polyline points="578,314 578,363" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="578,363 573.7,352.0 582.3,352.0" fill="#415d6b" />
+  <polyline points="578,416.5 578,478" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="578,478 573.7,467.0 582.3,467.0" fill="#415d6b" />
+  <polyline points="551.5,390 40,390 40,1110 182,1110 182,1128" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="182,1128 177.7,1117.0 186.3,1117.0" fill="#415d6b" />
+  <polyline points="707,510 894,510" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="894,510 883.0,514.3 883.0,505.7" fill="#415d6b" />
+  <polyline points="1026,546 1026,644 713,644" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="713,644 724.0,639.7 724.0,648.3" fill="#415d6b" />
+  <polyline points="578,678 578,733" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="578,733 573.7,722.0 582.3,722.0" fill="#415d6b" />
+  <polyline points="605,760 785,760 785,1000 654,1000 654,1030" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="654,1030 649.7,1019.0 658.3,1019.0" fill="#415d6b" />
+  <polyline points="551,760 182,760 182,828" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="182,828 177.7,817.0 186.3,817.0" fill="#415d6b" />
+  <polyline points="182,902 182,984 400,984" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="400,984 389.0,988.3 389.0,979.7" fill="#415d6b" />
+  <polyline points="454,984 484,984 484,1062 525,1062" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="525,1062 514.0,1066.3 514.0,1057.7" fill="#415d6b" />
+  <polyline points="427,1011 427,1160 292,1160" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="292,1160 303.0,1155.7 303.0,1164.3" fill="#415d6b" />
+  <polyline points="654,1094 654,1243" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="654,1243 649.7,1232.0 658.3,1232.0" fill="#415d6b" />
+  <polyline points="182,1192 182,1275 420.5,1275" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="420.5,1275 409.5,1279.3 409.5,1270.7" fill="#415d6b" />
+  <polyline points="578,1307 578,1351" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="578,1351 573.7,1340.0 582.3,1340.0" fill="#415d6b" />
+  <g id="start">
+    <title>Запрос распознан</title>
+    <circle cx="182" cy="180" r="19.0" fill="#fff" stroke="#0d615c" stroke-width="2" />
+    <text x="212.0" y="185" font-size="15" fill="#173445" text-anchor="start" font-weight="normal">Запрос распознан</text>
+  </g>
+  <g id="send">
+    <title>Передать текст запроса</title>
+    <rect x="66.0" y="248.0" width="232" height="64" rx="12" fill="#fff" stroke="#63858d" stroke-width="1.6" />
+    <text x="182" y="286.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="normal">Передать текст запроса</text>
+  </g>
+  <g id="ask">
+    <title>Назвать варианты и принять · ответ или отмену¹</title>
+    <rect x="56.0" y="828.0" width="252" height="74" rx="12" fill="#fff" stroke="#63858d" stroke-width="1.6" />
+    <text x="182" y="860.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="normal">Назвать варианты и принять</text>
+    <text x="182" y="882.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">ответ или отмену¹</text>
+  </g>
+  <g id="decline">
+    <title>Сообщить, что запись · не выбрана</title>
+    <rect x="72.0" y="1128.0" width="220" height="64" rx="12" fill="#fff" stroke="#63858d" stroke-width="1.6" />
+    <text x="182" y="1155.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="normal">Сообщить, что запись</text>
+    <text x="182" y="1177.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">не выбрана</text>
+  </g>
+  <g id="find">
+    <title>Найти доступные записи · в каталоге</title>
+    <rect x="449.0" y="246.0" width="258" height="68" rx="12" fill="#fff" stroke="#63858d" stroke-width="1.6" />
+    <text x="578" y="275.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="normal">Найти доступные записи</text>
+    <text x="578" y="297.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">в каталоге</text>
+  </g>
+  <g id="has">
+    <title>Есть записи?</title>
+    <polygon points="578,363.5 604.5,390 578,416.5 551.5,390" fill="#fff1cf" stroke="#95651c" stroke-width="2" />
+    <text x="578" y="396" font-size="23" fill="#785010" text-anchor="middle" font-weight="bold">×</text>
+    <text x="601" y="366" font-size="15" fill="#173445" text-anchor="start" font-weight="bold" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Есть записи?</text>
+    <text x="601" y="366" font-size="15" fill="#173445" text-anchor="start" font-weight="bold">Есть записи?</text>
+  </g>
+  <g id="request">
+    <title>Вызвать сервис · ранжирования</title>
+    <rect x="449.0" y="478.0" width="258" height="64" rx="12" fill="#fff" stroke="#63858d" stroke-width="1.6" />
+    <text x="578" y="505.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="normal">Вызвать сервис</text>
+    <text x="578" y="527.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">ранжирования</text>
+  </g>
+  <g id="policy">
+    <title>Проверить оценки · или тайм-аут</title>
+    <rect x="443.0" y="610.0" width="270" height="68" rx="12" fill="#fff" stroke="#63858d" stroke-width="1.6" />
+    <text x="578" y="639.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="normal">Проверить оценки</text>
+    <text x="578" y="661.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">или тайм-аут</text>
+  </g>
+  <g id="auto">
+    <title>Запускать сразу?</title>
+    <polygon points="578,733.0 605.0,760 578,787.0 551.0,760" fill="#fff1cf" stroke="#95651c" stroke-width="2" />
+    <text x="578" y="766" font-size="23" fill="#785010" text-anchor="middle" font-weight="bold">×</text>
+    <text x="601" y="736" font-size="15" fill="#173445" text-anchor="start" font-weight="bold" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Запускать сразу?</text>
+    <text x="601" y="736" font-size="15" fill="#173445" text-anchor="start" font-weight="bold">Запускать сразу?</text>
+  </g>
+  <g id="choose">
+    <title>Выбрана запись?</title>
+    <polygon points="427,957.0 454.0,984 427,1011.0 400.0,984" fill="#fff1cf" stroke="#95651c" stroke-width="2" />
+    <text x="427" y="990" font-size="23" fill="#785010" text-anchor="middle" font-weight="bold">×</text>
+    <text x="450" y="960" font-size="15" fill="#173445" text-anchor="start" font-weight="bold" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Выбрана запись?</text>
+    <text x="450" y="960" font-size="15" fill="#173445" text-anchor="start" font-weight="bold">Выбрана запись?</text>
+  </g>
+  <g id="play">
+    <title>Передать track_id плееру · и получить подтверждение</title>
+    <rect x="525.0" y="1030.0" width="258" height="64" rx="12" fill="#fff" stroke="#63858d" stroke-width="1.6" />
+    <text x="654" y="1057.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="normal">Передать track_id плееру</text>
+    <text x="654" y="1079.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">и получить подтверждение</text>
+  </g>
+  <g id="log">
+    <title>Записать исход и явный выбор · в журнал для оценки и обучения</title>
+    <rect x="420.5" y="1243.0" width="315" height="64" rx="12" fill="#fff" stroke="#63858d" stroke-width="1.6" />
+    <text x="578" y="1270.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="normal">Записать исход и явный выбор</text>
+    <text x="578" y="1292.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">в журнал для оценки и обучения</text>
+  </g>
+  <g id="finish">
+    <title>Исход сохранён</title>
+    <circle cx="578" cy="1370" r="19.0" fill="#fff" stroke="#0d615c" stroke-width="4" />
+    <text x="608.0" y="1375" font-size="15" fill="#173445" text-anchor="start" font-weight="normal">Исход сохранён</text>
+  </g>
+  <g id="rank">
+    <title>Подготовить признаки · и оценить записи моделью</title>
+    <rect x="894.0" y="474.0" width="264" height="72" rx="12" fill="#fff" stroke="#63858d" stroke-width="1.6" />
+    <text x="1026" y="505.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="normal">Подготовить признаки</text>
+    <text x="1026" y="527.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">и оценить записи моделью</text>
+  </g>
+  <text x="599" y="449" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Да</text>
+  <text x="599" y="449" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Да</text>
+  <text x="264" y="390" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Нет</text>
+  <text x="264" y="390" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Нет</text>
+  <text x="857" y="644" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Оценки или нет ответа</text>
+  <text x="857" y="644" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Оценки или нет ответа</text>
+  <text x="723" y="760" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Да</text>
+  <text x="723" y="760" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Да</text>
+  <text x="365" y="760" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Нет</text>
+  <text x="365" y="760" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Нет</text>
+  <text x="475" y="1012" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Да</text>
+  <text x="475" y="1012" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Да</text>
+  <text x="410" y="1100" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Нет</text>
+  <text x="410" y="1100" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Нет</text>
+  <text x="35" y="1460" font-size="14" fill="#415d6b" text-anchor="start" font-weight="normal">Ромб — исключающий шлюз. Тонкий круг — начало, жирный круг — конец. Стрелки задают порядок задач.</text>
+  <text x="35" y="1485" font-size="14" fill="#415d6b" text-anchor="start" font-weight="normal">¹ При недоступной модели варианты берутся из каталога. Отмена, молчание или неясный ответ завершают попытку.</text>
+</svg>

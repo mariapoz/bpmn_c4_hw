@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="1030" viewBox="0 0 1360 1030" font-family="DejaVu Sans, Arial, sans-serif" role="img" aria-labelledby="diagram-title">
+  <title id="diagram-title">Как запрос доходит до модели и плеера</title>
+  <rect width="1360" height="1030" fill="#fff" />
+  <text x="36" y="39" font-size="16" fill="#0d615c" text-anchor="start" font-weight="bold">C4  ·  Уровень 2  /  Containers</text>
+  <text x="36" y="82" font-size="31" fill="#173445" text-anchor="start" font-weight="bold">Как запрос доходит до модели и плеера</text>
+  <rect x="38" y="275" width="1284" height="480" rx="8" fill="#f6f9fa" stroke="#9cb1b8" />
+  <text x="54" y="301" font-size="16" fill="#415d6b" text-anchor="start" font-weight="bold">Система выбора записи</text>
+  <polyline points="170,192.5 170,380 505.5,380" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="505.5,380 494.5,384.3 494.5,375.7" fill="#415d6b" />
+  <polyline points="540,351 540,244 231,244 231,192.5" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="231,192.5 235.3,203.5 226.7,203.5" fill="#415d6b" />
+  <polyline points="630,351 630,192.5" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="630,192.5 634.3,203.5 625.7,203.5" fill="#415d6b" />
+  <polyline points="742,192.5 742,351" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="742,351 737.7,340.0 746.3,340.0" fill="#415d6b" />
+  <polyline points="854.5,380 1120,380 1120,192.5" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="1120,192.5 1124.3,203.5 1115.7,203.5" fill="#415d6b" />
+  <polyline points="1194,192.5 1194,430 854.5,430" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="854.5,430 865.5,425.7 865.5,434.3" fill="#415d6b" />
+  <polyline points="583,443 583,508 247,508 247,562" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="247,562 242.7,551.0 251.3,551.0" fill="#415d6b" />
+  <polyline points="484,610 667,610 667,443" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="667,443 671.3,454.0 662.7,454.0" fill="#415d6b" />
+  <polyline points="784,443 784,517 1056,517 1056,562" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="1056,562 1051.7,551.0 1060.3,551.0" fill="#415d6b" />
+  <polyline points="302,835 302,658" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="302,658 306.3,669.0 297.7,669.0" fill="#415d6b" />
+  <polyline points="1056,658 1056,835" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="1056,835 1051.7,824.0 1060.3,824.0" fill="#415d6b" />
+  <polyline points="873,880 484,880" fill="none" stroke="#415d6b" stroke-width="2" stroke-linejoin="round" />
+  <polygon points="484,880 495.0,875.7 495.0,884.3" fill="#415d6b" />
+  <g id="alice">
+    <title>Алиса · Внешняя система</title>
+    <rect x="50.0" y="119.5" width="300" height="73" rx="6" fill="#edf2f6" stroke="#778e9c" stroke-width="1.6" />
+    <text x="200" y="151.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="bold">Алиса</text>
+    <text x="200" y="173.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">Внешняя система</text>
+  </g>
+  <g id="cat">
+    <title>Каталог Яндекс Музыки · Внешняя система</title>
+    <rect x="520.0" y="119.5" width="320" height="73" rx="6" fill="#edf2f6" stroke="#778e9c" stroke-width="1.6" />
+    <text x="680" y="151.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="bold">Каталог Яндекс Музыки</text>
+    <text x="680" y="173.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">Внешняя система</text>
+  </g>
+  <g id="player">
+    <title>Плеер Яндекс Музыки · Внешняя система</title>
+    <rect x="950.0" y="119.5" width="340" height="73" rx="6" fill="#edf2f6" stroke="#778e9c" stroke-width="1.6" />
+    <text x="1120" y="151.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="bold">Плеер Яндекс Музыки</text>
+    <text x="1120" y="173.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">Внешняя система</text>
+  </g>
+  <g id="coord">
+    <title>Координатор выбора · Go · HTTP API · Ищет кандидатов и ведёт диалог</title>
+    <rect x="505.5" y="351.0" width="349" height="92" rx="6" fill="#0d615c" stroke="#084b48" stroke-width="1.6" />
+    <text x="680" y="381.0" font-size="18" fill="#fff" text-anchor="middle" font-weight="bold">Координатор выбора</text>
+    <text x="680" y="403.0" font-size="15" fill="#fff" text-anchor="middle" font-weight="normal">Go · HTTP API</text>
+    <text x="680" y="425.0" font-size="15" fill="#fff" text-anchor="middle" font-weight="normal">Ищет кандидатов и ведёт диалог</text>
+  </g>
+  <g id="ranker">
+    <title>Сервис ранжирования · Python · ONNX Runtime · Вычисляет оценки соответствия</title>
+    <rect x="120.0" y="562.0" width="364" height="96" rx="6" fill="#deefed" stroke="#477a78" stroke-width="1.6" />
+    <text x="302" y="594.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="bold">Сервис ранжирования</text>
+    <text x="302" y="616.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">Python · ONNX Runtime</text>
+    <text x="302" y="638.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">Вычисляет оценки соответствия</text>
+  </g>
+  <g id="journal">
+    <title>Журнал решений · PostgreSQL · Хранит исходы и явный выбор</title>
+    <rect x="873.0" y="562.0" width="366" height="96" rx="6" fill="#deefed" stroke="#477a78" stroke-width="1.6" />
+    <text x="1056" y="594.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="bold">Журнал решений</text>
+    <text x="1056" y="616.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">PostgreSQL</text>
+    <text x="1056" y="638.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">Хранит исходы и явный выбор</text>
+  </g>
+  <g id="registry">
+    <title>Реестр моделей · MLflow · внешний сервис</title>
+    <rect x="120.0" y="835.0" width="364" height="90" rx="6" fill="#edf2f6" stroke="#778e9c" stroke-width="1.6" />
+    <text x="302" y="875.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="bold">Реестр моделей</text>
+    <text x="302" y="897.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">MLflow · внешний сервис</text>
+  </g>
+  <g id="train">
+    <title>Платформа обучения · Внешняя система</title>
+    <rect x="873.0" y="835.0" width="366" height="90" rx="6" fill="#edf2f6" stroke="#778e9c" stroke-width="1.6" />
+    <text x="1056" y="875.0" font-size="18" fill="#173445" text-anchor="middle" font-weight="bold">Платформа обучения</text>
+    <text x="1056" y="897.0" font-size="15" fill="#173445" text-anchor="middle" font-weight="normal">Внешняя система</text>
+  </g>
+  <text x="316" y="380" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Текст или ответ на уточнение</text>
+  <text x="316" y="380" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Текст или ответ на уточнение</text>
+  <text x="380" y="244" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Вопрос или отказ</text>
+  <text x="380" y="244" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Вопрос или отказ</text>
+  <text x="573" y="224" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Текст запроса</text>
+  <text x="573" y="224" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Текст запроса</text>
+  <text x="797" y="304" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">ID и метаданные</text>
+  <text x="797" y="304" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">ID и метаданные</text>
+  <text x="987" y="380" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">track_id → пуск</text>
+  <text x="987" y="380" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">track_id → пуск</text>
+  <text x="1020" y="430" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Подтверждение пуска</text>
+  <text x="1020" y="430" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Подтверждение пуска</text>
+  <text x="397" y="508" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Текст и найденные записи</text>
+  <text x="397" y="508" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Текст и найденные записи</text>
+  <text x="567" y="610" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">ID, оценки, версия</text>
+  <text x="567" y="610" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">ID, оценки, версия</text>
+  <text x="932" y="517" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Кандидаты, решение, исход</text>
+  <text x="932" y="517" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Кандидаты, решение, исход</text>
+  <text x="332" y="788" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Активная версия и артефакт</text>
+  <text x="332" y="788" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Активная версия и артефакт</text>
+  <text x="1083" y="789" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Примеры с явным выбором</text>
+  <text x="1083" y="789" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Примеры с явным выбором</text>
+  <text x="678" y="880" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal" paint-order="stroke" stroke="#fff" stroke-width="6" stroke-linejoin="round">Публикует проверенную версию</text>
+  <text x="678" y="880" font-size="14" fill="#415d6b" text-anchor="middle" font-weight="normal">Публикует проверенную версию</text>
+  <text x="40" y="993" font-size="14" fill="#415d6b" text-anchor="start" font-weight="normal">Каждый блок внутри рамки — отдельно запускаемый сервис или хранилище. Реестр и обучение обслуживают также другие процессы.</text>
+</svg>
